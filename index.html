@@ -9,7 +9,7 @@
       html {
         height: 100%;
         margin: 0;
-        padding: 0; 
+        padding: 0;
       }
 
       .bg {
@@ -21,10 +21,20 @@
         background-repeat: no-repeat;
         background-size: cover;
       }
+
+      .bg:nth-child(2) {
+        margin-top: -5px;
+      }
+
+      @media screen and (min-width: 500px) {
+        .bg {
+          height: 100%;
+        }
+      }
     </style>
   </head>
   <body>
-    <img src="./LasagnaMenuV2.png" class="bg"/>
-    <img src="./DessertMenuWithArt.png" class="bg"/>
+    <img src="./LasagnaMenuV2.png" class="bg" />
+    <img src="./DessertMenuWithArt.png" class="bg" />
   </body>
 </html>
